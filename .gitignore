@@ -1,0 +1,39 @@
+# Build artifacts
+build/
+*.uf2
+
+# West/Zephyr directories
+.west/
+/zephyr/
+/modules/
+/zmk/
+/zmk-keyboards-cyboard/
+/zmk-pmw3610-driver/
+/cirque-input-module/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+screenlog.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Temporary files
+*.tmp
+*.bak
+*.orig
