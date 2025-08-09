@@ -11,9 +11,10 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: zmk-keyboards
-      remote: Cyboard-DigitalTailor
-      revision: main
-      import: config/west.yml
+    # Commented out to avoid conflicts with local board definitions
+    # - name: zmk-keyboards
+    #   remote: Cyboard-DigitalTailor
+    #   revision: main
+    #   import: config/west.yml
   self:
     path: config
