@@ -4,12 +4,12 @@ build/
 
 # West/Zephyr directories
 .west/
-zephyr/
-modules/
-zmk/
-zmk-keyboards-cyboard/
-zmk-pmw3610-driver/
-cirque-input-module/
+/zephyr/
+/modules/
+/zmk/
+/zmk-keyboards-cyboard/
+/zmk-pmw3610-driver/
+/cirque-input-module/
 
 # IDE files
 .idea/
