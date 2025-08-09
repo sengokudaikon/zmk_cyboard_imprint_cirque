@@ -25,10 +25,6 @@
 };
 
 #include <zephyr/dt-bindings/input/input-event-codes.h>
-&spi1 {
-    status = "disabled";
-
-};
 
 &i2c1 {
     status = "okay";
