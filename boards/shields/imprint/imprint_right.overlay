@@ -26,6 +26,9 @@
 
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 
+// Disable SPI1 since Cirque uses I2C
+/delete-node/ &spi1;
+
 &i2c1 {
     status = "okay";
     glidepoint0: glidepoint@2a {
